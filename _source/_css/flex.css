@@ -1,0 +1,171 @@
+/*
+//			Large Screen focused Media Queries
+*/
+  
+ 
+@media only screen and (max-width : 900px) {  
+
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 11px;
+/*  letter-spacing: 2px;*/
+}
+
+h3 {
+  font-size: 11px;
+/*  letter-spacing: 2px;*/
+}
+
+p {
+  font-size: 24px;
+}
+
+.title {
+  position: relative;
+  top: 20%;
+}
+
+.summary {
+  width: 450px;
+/*  position: relative;*/
+  top: 33%;
+}
+
+.summary p {
+  line-height: 42px;
+}
+
+/*.hint {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+}*/
+
+.archive {
+  top: 80%;
+}
+
+
+/*
+//      Medium Screen focused Media Queries
+*/
+
+@media only screen and (max-width : 750px) {  
+
+.happy h1 {
+  font-size: 65px;
+  letter-spacing: 3px;
+}
+
+.lines {
+  display: block;
+}
+
+}
+
+/*
+//			Small Screen focused Media Queries
+*/
+  
+@media only screen and (max-width : 640px) {  
+
+h1 {
+  font-family: 'brown-thin', Avenir, sans serif;
+  font-size: 80px;
+  letter-spacing: 2px;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 11px;
+  letter-spacing: 2px;
+  line-height: 2em;
+}
+
+h3 {
+  font-size: 10px;
+  letter-spacing: 1.2px;
+  line-height: 2em;
+}
+
+a {
+  border-bottom: .1em solid #FFFFFF;
+}
+
+a:hover {
+  border-bottom: .1em solid #F0F0F0;
+}
+
+.summary {
+  width: 300px;
+  top: 30%;
+}
+
+.summary p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.spots p {
+  font-family: 'brown-regular', Avenir, sans serif;
+  font-size: 16px;
+}
+
+.spots img {
+    max-height: 100%;
+    max-width: none;
+}
+
+.happy {
+  top: 20%;
+}
+
+.happy h1 {
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+.wonderful p {
+  font-family: 'brown-light', Avenir, sans serif;
+  font-size: 18px;
+  bottom: 15px;
+}
+
+.signatures img {
+  width: 180px;
+  height: 60px;
+  min-width: 180px;
+  min-height: 60px;
+  margin: 0px;
+}
+
+.archive {
+  position: relative;
+  top: 60%;
+}
+
+/*
+//			Retina focused Media Queries
+*/
+  
+/*
+
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) { 
+  
+    INSERT CSS HERE
+    
+    }
+
+*/
+
